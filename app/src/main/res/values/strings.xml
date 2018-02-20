@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">LocationAndMaps</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="open">Drawer\'s Open</string>
+    <string name="closed">Drawer\'s Closed</string>
+    <string name="Main">Main Map</string>
+    <string name="Geocoding">Geo Code</string>
+    <string name="Places">Places API</string>
+</resources>
