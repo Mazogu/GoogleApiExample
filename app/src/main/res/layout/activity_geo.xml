@@ -21,27 +21,35 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/getLocation"
-        app:layout_constraintTop_toBottomOf="@id/addressView"
-        android:text = "Get Location"/>
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
         android:id="@+id/getAddress"
         android:text = "Get Address"
-        app:layout_constraintTop_toBottomOf="@id/getLocation"/>
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:onClick="getAddress"
+        app:layout_constraintTop_toBottomOf="@id/addressView"/>
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:text="Get Address with Class"
+        android:onClick="reservseGeoCodeClass"
         android:id="@+id/geoGetAddress"
         app:layout_constraintTop_toBottomOf="@id/getAddress"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/generatedLocation"
+        android:textSize="20sp"
+        app:layout_constraintTop_toBottomOf="@id/geoGetAddress"/>
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@id/geoGetAddress"
+        android:text="Get Coordinates"
+        android:onClick="getLocation"
+        app:layout_constraintTop_toBottomOf="@id/generatedLocation"
         android:id="@+id/geo"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GeoCode with class"
+        android:onClick="geoCodeClass"
+        app:layout_constraintTop_toBottomOf="@id/geo"/>
 
 </android.support.constraint.ConstraintLayout>

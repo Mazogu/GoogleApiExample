@@ -1,5 +1,5 @@
 
-package com.example.micha.locationandmaps.model.reversegeocode;
+package com.example.micha.locationandmaps.model.geocode;
 
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;

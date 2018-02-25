@@ -1,11 +1,11 @@
 
-package com.example.micha.locationandmaps.model.reversegeocode;
+package com.example.micha.locationandmaps.model.geocode;
 
 import java.util.List;
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
-public class ReverseGeo {
+public class GeoCode {
 
     @SerializedName("results")
     @Expose
